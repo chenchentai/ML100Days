@@ -1,0 +1,5 @@
+import numpy as np
+np.__version__
+np.arange(0,21,1)
+np.arange(0,22,2)
+np.arange(0,21,3)
