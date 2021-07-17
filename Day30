@@ -1,0 +1,23 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from scipy import stats
+import math
+import statistics
+import seaborn as sns
+
+from scipy.stats import uniform
+from scipy.stats import norm
+
+#Q1
+norm.cdf(1)
+
+0.8413447460685429
+#Q2
+(1-norm.cdf(1))*2
+
+0.31731050786291415
+#Q3
+norm.cdf((6-2)/4**(0.5))
+
+0.9772498680518208
